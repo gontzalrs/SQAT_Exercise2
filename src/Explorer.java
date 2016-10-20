@@ -58,14 +58,16 @@ public class Explorer {
 					foundObstacles = foundObstacles + "(" + x + "," + y + ")";
 					x = prevX;
 					y = prevY;
-					return -1;
+					return foundObstacles;
 				}
 			}
 		}
-		return 0;
+		return foundObstacles;
 	}
 	
-	public void moveBackward(int[][] obs){
+	public String moveBackward(int[][] obs){
+		int prevX = x;
+		int prevY = y;
 		switch(direction){
 		case N:
 			if(y==0) y = Py-1;
@@ -84,6 +86,17 @@ public class Explorer {
 			else x++;
 			break;
 		}
+		for(int[] o : obs){
+			if(o[0]==x){
+				if(o[1]==y){
+					foundObstacles = foundObstacles + "(" + x + "," + y + ")";
+					x = prevX;
+					y = prevY;
+					return foundObstacles;
+				}
+			}
+		}
+		return foundObstacles;
 	}
 	
 	public int getX() {

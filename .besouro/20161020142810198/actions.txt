@@ -334,3 +334,6 @@ UnitTestCaseAction 1476969834096 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476969834096 TestPlanetExplorer.java FAIL
 RefactoringAction 1476969964863 Explorer.java ADD String foundObstacles FIELD
 EditAction 1476970054731 Explorer.java 1566 8 17 0
+CompilationAction 1476970054986 Explorer.java
+CompilationAction 1476970076614 Explorer.java
+EditAction 1476970102459 Explorer.java 1859 8 21 0
