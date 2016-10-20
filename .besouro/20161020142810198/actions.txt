@@ -208,3 +208,19 @@ RefactoringAction 1476966527611 Explorer.java ADD void moveForward()/2 METHOD
 RefactoringAction 1476966533131 Explorer.java RENAME moveForward()/2=>void moveBack() METHOD
 RefactoringAction 1476966534641 Explorer.java RENAME moveBack()=>void moveBackward() METHOD
 EditAction 1476966563542 Explorer.java 1397 11 15 0
+UnitTestCaseAction 1476966569003 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476966569004 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476966628325 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476966628326 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476966699889 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476966699889 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476966715683 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476966715683 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476966752242 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476966752243 TestPlanetExplorer.java OK
+UnitTestCaseAction 1476966766087 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476966766088 TestPlanetExplorer.java OK
+RefactoringAction 1476966792485 TestPlanetExplorer.java ADD void test_forwward_1()/2 METHOD
+RefactoringAction 1476966799999 TestPlanetExplorer.java RENAME test_forwward_1()/2=>void test_ffrff_1() METHOD
+RefactoringAction 1476966806512 TestPlanetExplorer.java RENAME test_ffrff_1()=>void test_ffrff_22E() METHOD
+EditAction 1476966827850 TestPlanetExplorer.java 1334 5 21 5

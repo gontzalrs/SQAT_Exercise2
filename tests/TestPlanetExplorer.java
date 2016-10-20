@@ -48,6 +48,20 @@ public class TestPlanetExplorer {
 		pos[1] = 1;
 		pos[2] = N;
 		//Assert
-		assertEquals(pos, planet.getExplorerPosition());
+		assertArrayEquals(pos, planet.getExplorerPosition());
+	}
+	
+	@Test
+	public void test_ffrff_22E() {
+		//Arrange
+		PlanetExplorer planet = new PlanetExplorer(100,100,"");
+		//Act
+		planet.executeCommand("ffrff");
+		int[] pos = new int[3];
+		pos[0] = 2;
+		pos[1] = 2;
+		pos[2] = E;
+		//Assert
+		assertArrayEquals(pos, planet.getExplorerPosition());
 	}
 }
