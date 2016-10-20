@@ -52,21 +52,24 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
-		switch(command){
-		case "l":
-			explorer.turnLeft();
-			break;
-		case "r":
-			explorer.turnRight();
-			break;
-		case "f":
-			explorer.moveForward();
-			break;
-		case "b":
-			explorer.moveBackward();
-			break;
+		for(int i = 1; i<command.length(); i++){
+			char c = command.charAt(i);
+			switch(c){
+			case 'l':
+				explorer.turnLeft();
+				break;
+			case 'r':
+				explorer.turnRight();
+				break;
+			case 'f':
+				explorer.moveForward();
+				break;
+			case 'b':
+				explorer.moveBackward();
+				break;
+			}
 		}
-		
+		return "(" + explorer.getX() + explorer.getY() + explorer.getDirection() + ")";
 		return null;
 	}
 }

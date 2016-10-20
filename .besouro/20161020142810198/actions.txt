@@ -224,3 +224,6 @@ RefactoringAction 1476966792485 TestPlanetExplorer.java ADD void test_forwward_1
 RefactoringAction 1476966799999 TestPlanetExplorer.java RENAME test_forwward_1()/2=>void test_ffrff_1() METHOD
 RefactoringAction 1476966806512 TestPlanetExplorer.java RENAME test_ffrff_1()=>void test_ffrff_22E() METHOD
 EditAction 1476966827850 TestPlanetExplorer.java 1334 5 21 5
+UnitTestCaseAction 1476966829048 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476966829048 TestPlanetExplorer.java FAIL
+EditAction 1476967072087 PlanetExplorer.java 2096 6 14 0
