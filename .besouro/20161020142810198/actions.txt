@@ -275,3 +275,18 @@ CompilationAction 1476967841970 PlanetExplorer.java
 CompilationAction 1476967841971 PlanetExplorer.java
 RefactoringAction 1476967869531 PlanetExplorer.java ADD int FIELD
 EditAction 1476967939922 PlanetExplorer.java 2149 6 14 0
+CompilationAction 1476967940153 PlanetExplorer.java
+RefactoringAction 1476968158733 PlanetExplorer.java ADD void setObstacles() METHOD
+RefactoringAction 1476968165759 PlanetExplorer.java RENAME setObstacles()=>void setObstacles(String) METHOD
+CompilationAction 1476968324508 PlanetExplorer.java
+CompilationAction 1476968324677 PlanetExplorer.java
+CompilationAction 1476968324678 PlanetExplorer.java
+CompilationAction 1476968373953 PlanetExplorer.java
+CompilationAction 1476968373954 PlanetExplorer.java
+CompilationAction 1476968374111 PlanetExplorer.java
+CompilationAction 1476968374111 PlanetExplorer.java
+RefactoringAction 1476968448454 PlanetExplorer.java RENAME PlanetExplorer(int, int, String)=>PlanetExplorer(int, int, int METHOD
+RefactoringAction 1476968451417 PlanetExplorer.java RENAME PlanetExplorer(int, int, int=>PlanetExplorer(int, int, String) METHOD
+CompilationAction 1476968459725 PlanetExplorer.java
+CompilationAction 1476968459726 PlanetExplorer.java
+EditAction 1476968580987 PlanetExplorer.java 2395 7 17 0

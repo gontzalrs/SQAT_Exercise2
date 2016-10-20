@@ -20,11 +20,18 @@ public class PlanetExplorer {
 	 */
 		this.x = x;
 		this.y = y;
+		int numOfObstacles = obstacles.length()/5;
+		this.obstacles = new int[numOfObstacles][2];
 		setObstacles(obstacles);
 		explorer = new Explorer(x, y);
 	}
 	
-	
+	private void setObstacles(String obs){
+		for(int i = 0; i<obs.length(); i++){
+			char c = obs.charAt(i);
+			if(i % 5 == 1) obstacles[i/5][0] = c-0;
+		}
+	}
 	
 	public int getX() {
 		return x;
