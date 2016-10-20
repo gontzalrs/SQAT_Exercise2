@@ -47,8 +47,10 @@ public class PlanetExplorer {
 		switch(command){
 		case "l":
 			explorer.turnLeft();
+			break;
 		case "r":
 			explorer.turnRight();
+			break;
 		}
 		
 		return null;
