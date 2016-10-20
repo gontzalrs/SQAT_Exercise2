@@ -26,4 +26,14 @@ public class TestPlanetExplorer {
 		//Assert
 		assertEquals(N, planet.getExplorerDirection());
 	}
+	
+	@Test
+	public void test_turnLeft_N() {
+		//Arrange
+		PlanetExplorer planet = new PlanetExplorer(100,100,"");
+		//Act
+		planet.executeCommand("l");
+		//Assert
+		assertEquals(N, planet.getExplorerDirection());
+	}
 }

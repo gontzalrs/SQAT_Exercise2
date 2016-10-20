@@ -130,3 +130,7 @@ RefactoringAction 1476965085732 Explorer.java RENAME turn=>void turnLeft() METHO
 RefactoringAction 1476965095766 Explorer.java ADD void turnLeft()/2 METHOD
 RefactoringAction 1476965101785 Explorer.java RENAME turnLeft()/2=>void turnRight() METHOD
 EditAction 1476965204028 Explorer.java 730 9 11 0
+RefactoringAction 1476965212729 TestPlanetExplorer.java ADD void test_landExplorer_N()/2 METHOD
+RefactoringAction 1476965227743 TestPlanetExplorer.java RENAME test_landExplorer_N()/2=>void test_turn_N() METHOD
+RefactoringAction 1476965231756 TestPlanetExplorer.java RENAME test_turn_N()=>void test_turnLeft_N() METHOD
+EditAction 1476965254167 TestPlanetExplorer.java 755 3 7 3
