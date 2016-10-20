@@ -77,3 +77,27 @@ RefactoringAction 1476964500611 TestPlanetExplorer.java ADD int E FIELD
 CompilationAction 1476964501470 TestPlanetExplorer.java
 CompilationAction 1476964501623 TestPlanetExplorer.java
 EditAction 1476964508841 PlanetExplorer.java 1538 5 7 0
+RefactoringAction 1476964523293 PlanetExplorer.java RENAME getExplorerDirection()=>int getExplorerPosition() METHOD
+RefactoringAction 1476964537862 PlanetExplorer.java RENAME getExplorerPosition()=>int getExplorerPo() METHOD
+RefactoringAction 1476964539880 PlanetExplorer.java RENAME getExplorerPo()=>int getExplorerDirection() METHOD
+UnitTestCaseAction 1476964545555 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476964545555 TestPlanetExplorer.java OK
+RefactoringAction 1476964712244 Explorer.java REMOVE E FIELD
+RefactoringAction 1476964712245 Explorer.java REMOVE S FIELD
+RefactoringAction 1476964712246 Explorer.java REMOVE N FIELD
+RefactoringAction 1476964712246 Explorer.java REMOVE W FIELD
+RefactoringAction 1476964720831 Explorer.java RENAME D=>enum direction null
+RefactoringAction 1476964724346 Explorer.java ADD Explorer() METHOD
+RefactoringAction 1476964724348 Explorer.java ADD int getX() METHOD
+RefactoringAction 1476964724348 Explorer.java ADD void setX(int) METHOD
+RefactoringAction 1476964724349 Explorer.java ADD int getY() METHOD
+RefactoringAction 1476964724350 Explorer.java ADD void setY(int) METHOD
+RefactoringAction 1476964724350 Explorer.java ADD int getDirection() METHOD
+RefactoringAction 1476964724351 Explorer.java ADD void setDirection(int) METHOD
+RefactoringAction 1476964730868 Explorer.java ADD direction N FIELD
+RefactoringAction 1476964779398 Explorer.java ADD direction E FIELD
+RefactoringAction 1476964787924 Explorer.java ADD direction Sou FIELD
+RefactoringAction 1476964788938 Explorer.java RENAME Sou=>direction S FIELD
+RefactoringAction 1476964790965 Explorer.java ADD direction W FIELD
+RefactoringAction 1476964811979 Explorer.java REMOVE direction FIELD
+EditAction 1476964815018 Explorer.java 483 7 9 0
