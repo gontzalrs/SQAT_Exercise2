@@ -4,6 +4,9 @@
 // Finish time:
 
 public class PlanetExplorer {
+	int x;
+	int y;
+	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -12,8 +15,18 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
+		this.x = x;
+		this.y = y;
 	}
 	
+	public int getX() {
+		return x;
+	}
+
+	public int getY() {
+		return y;
+	}
+
 	public String executeCommand(String command){
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)

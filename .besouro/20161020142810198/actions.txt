@@ -1,0 +1,8 @@
+FileOpenedAction 1476962890383 PlanetExplorer.java 1270 2 1 0
+FileOpenedAction 1476963062902 TestPlanetExplorer.java 174 1 1 0
+FileOpenedAction 1476963089857 GildedRoseTest.java 5358 14 84 13
+RefactoringAction 1476963228650 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1476963233699 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1476963371498 PlanetExplorer.java ADD int getX() METHOD
+RefactoringAction 1476963371498 PlanetExplorer.java ADD int getY() METHOD
+EditAction 1476963373685 PlanetExplorer.java 1390 4 5 0
