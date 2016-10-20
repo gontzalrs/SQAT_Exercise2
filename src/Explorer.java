@@ -14,6 +14,17 @@ public class Explorer {
 		y = 0;
 		direction = N;
 	}
+	
+	public void turnLeft(){
+		if(direction == N) direction = W;
+		else direction--;
+	}
+	
+	public void turnRight(){
+		if(direction == W) direction = N;
+		else direction ++;
+	}
+	
 	public int getX() {
 		return x;
 	}

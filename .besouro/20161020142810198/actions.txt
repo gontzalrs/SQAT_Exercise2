@@ -123,3 +123,10 @@ CompilationAction 1476964959169 Explorer.java
 UnitTestCaseAction 1476964969045 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476964969045 TestPlanetExplorer.java OK
 EditAction 1476965052692 PlanetExplorer.java 1634 5 8 0
+CompilationAction 1476965052900 PlanetExplorer.java
+CompilationAction 1476965052900 PlanetExplorer.java
+RefactoringAction 1476965065221 Explorer.java ADD void turn FIELD
+RefactoringAction 1476965085732 Explorer.java RENAME turn=>void turnLeft() METHOD
+RefactoringAction 1476965095766 Explorer.java ADD void turnLeft()/2 METHOD
+RefactoringAction 1476965101785 Explorer.java RENAME turnLeft()/2=>void turnRight() METHOD
+EditAction 1476965204028 Explorer.java 730 9 11 0
