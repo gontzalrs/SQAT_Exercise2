@@ -315,3 +315,4 @@ RefactoringAction 1476969317757 TestPlanetExplorer.java RENAME test_backward_099
 CompilationAction 1476969318749 TestPlanetExplorer.java
 RefactoringAction 1476969332281 TestPlanetExplorer.java RENAME test_backward_12E()=>void test_backward_12E22() METHOD
 EditAction 1476969333148 TestPlanetExplorer.java 2006 8 30 8
+EditAction 1476969383701 Explorer.java 1280 8 14 0

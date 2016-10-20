@@ -30,6 +30,8 @@ public class Explorer {
 	}
 	
 	public void moveForward(){
+		int prevX = x;
+		int prevY = y;
 		switch(direction){
 		case N:
 			if(y==Py-1) y = 0;
