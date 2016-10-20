@@ -4,9 +4,9 @@ import org.junit.Test;
 
 public class TestPlanetExplorer {
 	final int N = 0;
-	final int S = 1;
-	final int W = 2;
-	final int E = 3;
+	final int E = 1;
+	final int S = 2;
+	final int W = 3;
 	
 	@Test
 	public void test_createPlanet100x100_100() {
