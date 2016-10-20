@@ -24,3 +24,35 @@ RefactoringAction 1476963775677 TestPlanetExplorer.java RENAME test_land()=>void
 RefactoringAction 1476963800692 TestPlanetExplorer.java RENAME test_landExplorer()=>void test_landExplorer_() METHOD
 RefactoringAction 1476963805209 TestPlanetExplorer.java RENAME test_landExplorer_()=>void test_landExplorer_N() METHOD
 EditAction 1476964029049 TestPlanetExplorer.java 517 2 6 2
+CompilationAction 1476964029304 TestPlanetExplorer.java
+CompilationAction 1476964029304 TestPlanetExplorer.java
+CompilationAction 1476964029305 TestPlanetExplorer.java
+UnitTestCaseAction 1476964032127 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476964032128 TestPlanetExplorer.java FAIL
+RefactoringAction 1476964083344 Explorer.java ADD int x FIELD
+RefactoringAction 1476964083345 Explorer.java ADD int y FIELD
+RefactoringAction 1476964105385 Explorer.java ADD char Direction FIELD
+RefactoringAction 1476964110900 Explorer.java RENAME Direction=>char direction FIELD
+CompilationAction 1476964112054 TestPlanetExplorer.java
+CompilationAction 1476964112054 TestPlanetExplorer.java
+CompilationAction 1476964112054 TestPlanetExplorer.java
+CompilationAction 1476964137478 Explorer.java
+RefactoringAction 1476964189007 Explorer.java ADD int N FIELD
+RefactoringAction 1476964196522 Explorer.java ADD int N/2 FIELD
+RefactoringAction 1476964198530 Explorer.java ADD int N/3 FIELD
+RefactoringAction 1476964198531 Explorer.java ADD int N/4 FIELD
+RefactoringAction 1476964205039 Explorer.java RENAME N/4=>int S FIELD
+RefactoringAction 1476964208048 Explorer.java RENAME N/3=>int W FIELD
+RefactoringAction 1476964215058 Explorer.java RENAME N/2=>int E FIELD
+CompilationAction 1476964287633 Explorer.java
+CompilationAction 1476964287812 TestPlanetExplorer.java
+CompilationAction 1476964287813 TestPlanetExplorer.java
+CompilationAction 1476964287813 TestPlanetExplorer.java
+RefactoringAction 1476964323649 Explorer.java ADD int getX() METHOD
+RefactoringAction 1476964323650 Explorer.java ADD void setX(int) METHOD
+RefactoringAction 1476964323651 Explorer.java ADD int getY() METHOD
+RefactoringAction 1476964323651 Explorer.java ADD void setY(int) METHOD
+RefactoringAction 1476964323652 Explorer.java ADD int getDirection() METHOD
+RefactoringAction 1476964323653 Explorer.java ADD void setDirection(int) METHOD
+RefactoringAction 1476964358445 PlanetExplorer.java ADD Explorer explorer FIELD
+EditAction 1476964377059 PlanetExplorer.java 1463 4 6 0
