@@ -69,7 +69,6 @@ public class PlanetExplorer {
 				break;
 			}
 		}
-		return "(" + explorer.getX() + explorer.getY() + explorer.getDirection() + ")";
-		return null;
+		return "(" + explorer.getX() +","+ explorer.getY() +","+ explorer.getDirection() + ")";
 	}
 }
