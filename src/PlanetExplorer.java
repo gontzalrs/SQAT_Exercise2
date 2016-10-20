@@ -18,7 +18,7 @@ public class PlanetExplorer {
 	 */
 		this.x = x;
 		this.y = y;
-		explorer = new Explorer();
+		explorer = new Explorer(x, y);
 	}
 	
 	public int getX() {

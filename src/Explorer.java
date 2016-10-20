@@ -2,6 +2,8 @@
 public class Explorer {
 	private int x;
 	private int y;
+	private int Px;
+	private int Py;
 	private int direction;
 	
 	final int N = 0;
@@ -9,10 +11,12 @@ public class Explorer {
 	final int S = 2;
 	final int W = 3;
 	
-	public Explorer() {
+	public Explorer(int Px, int Py) {
 		x = 0;
 		y = 0;
 		direction = N;
+		this.Px = Px;
+		this.Py = Py;
 	}
 	
 	public void turnLeft(){
@@ -23,6 +27,10 @@ public class Explorer {
 	public void turnRight(){
 		if(direction == W) direction = N;
 		else direction ++;
+	}
+	
+	public void moveForward(){
+		if(y==)
 	}
 	
 	public int getX() {
