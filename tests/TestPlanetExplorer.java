@@ -36,4 +36,14 @@ public class TestPlanetExplorer {
 		//Assert
 		assertEquals(W, planet.getExplorerDirection());
 	}
+	
+	@Test
+	public void test_forwward_1() {
+		//Arrange
+		PlanetExplorer planet = new PlanetExplorer(100,100,"");
+		//Act
+		planet.executeCommand("f");
+		//Assert
+		assertEquals(W, planet.getExplorerPosition());
+	}
 }

@@ -143,3 +143,11 @@ UnitTestSessionAction 1476965277012 TestPlanetExplorer.java FAIL
 UnitTestCaseAction 1476965559898 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476965559898 TestPlanetExplorer.java OK
 EditAction 1476965581549 PlanetExplorer.java 1654 5 8 0
+RefactoringAction 1476965605941 TestPlanetExplorer.java ADD void test_turnLeft_N()/2 METHOD
+RefactoringAction 1476965731962 TestPlanetExplorer.java RENAME test_turnLeft_N()/2=>void test_go_N() METHOD
+RefactoringAction 1476965737977 TestPlanetExplorer.java RENAME test_go_N()=>void test__N() METHOD
+RefactoringAction 1476965739989 TestPlanetExplorer.java RENAME test__N()=>void test_forw_N() METHOD
+RefactoringAction 1476965742999 TestPlanetExplorer.java RENAME test_forw_N()=>void test_forwdward_N() METHOD
+RefactoringAction 1476965748011 TestPlanetExplorer.java RENAME test_forwdward_N()=>void test_forwward_N() METHOD
+RefactoringAction 1476965755524 TestPlanetExplorer.java RENAME test_forwward_N()=>void test_forwward_1() METHOD
+EditAction 1476965788303 TestPlanetExplorer.java 968 4 10 4
