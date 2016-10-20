@@ -295,3 +295,9 @@ RefactoringAction 1476968802376 PlanetExplorer.java ADD int get FIELD
 RefactoringAction 1476968808390 PlanetExplorer.java RENAME get=>int getObstacles FIELD
 RefactoringAction 1476968809405 PlanetExplorer.java RENAME getObstacles=>int getObstacles() METHOD
 EditAction 1476968825702 PlanetExplorer.java 2501 8 18 0
+RefactoringAction 1476968840185 TestPlanetExplorer.java ADD void test_backward_099N()/2 METHOD
+RefactoringAction 1476968864241 TestPlanetExplorer.java RENAME test_backward_099N()/2=>void test_place_099N() METHOD
+RefactoringAction 1476968867254 TestPlanetExplorer.java RENAME test_place_099N()=>void test_placeObstacles_099N() METHOD
+RefactoringAction 1476968876272 TestPlanetExplorer.java RENAME test_placeObstacles_099N()=>void test_placeObstacles_32() METHOD
+RefactoringAction 1476968877786 TestPlanetExplorer.java RENAME test_placeObstacles_32()=>void test_placeObstacles_3258() METHOD
+EditAction 1476968985062 TestPlanetExplorer.java 1779 7 27 7

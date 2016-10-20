@@ -70,4 +70,18 @@ public class TestPlanetExplorer {
 		//Assert
 		assertEquals("(0,99,"+N+")", pos);
 	}
+	
+	@Test
+	public void test_placeObstacles_3258() {
+		//Arrange
+		PlanetExplorer planet = new PlanetExplorer(100,100,"(3,2)(5,8)");
+		//Act
+		int[][] obs = new int[2][2];
+		obs[0][0] = 3;
+		obs[0][1] = 2;
+		obs[1][0] = 5;
+		obs[1][1] = 8;
+		//Assert
+		assertArrayEquals(obs, planet.getObstacles());
+	}
 }
