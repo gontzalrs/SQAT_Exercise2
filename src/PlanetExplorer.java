@@ -4,8 +4,8 @@
 // Finish time:
 
 public class PlanetExplorer {
-	int x;
-	int y;
+	private int x;
+	private int y;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
