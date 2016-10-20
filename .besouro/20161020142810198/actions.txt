@@ -264,3 +264,6 @@ RefactoringAction 1476967434863 Explorer.java RENAME Planetyy=>int PlanetyMax FI
 RefactoringAction 1476967446873 Explorer.java ADD int Px FIELD
 RefactoringAction 1476967446874 Explorer.java ADD int Py FIELD
 EditAction 1476967482287 Explorer.java 1244 8 12 0
+UnitTestCaseAction 1476967492014 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476967492014 TestPlanetExplorer.java OK
+EditAction 1476967808158 PlanetExplorer.java 2108 6 13 0
