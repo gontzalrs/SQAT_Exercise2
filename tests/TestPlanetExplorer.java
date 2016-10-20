@@ -56,12 +56,12 @@ public class TestPlanetExplorer {
 		//Arrange
 		PlanetExplorer planet = new PlanetExplorer(100,100,"");
 		//Act
-		planet.executeCommand("ffrff");
+		String pos  = planet.executeCommand("ffrff");
 		int[] pos = new int[3];
 		pos[0] = 2;
 		pos[1] = 2;
 		pos[2] = E;
 		//Assert
-		assertArrayEquals(pos, planet.getExplorerPosition());
+		assertArrayEquals("(2,2,"+E+")", planet.getExplorerPosition());
 	}
 }
