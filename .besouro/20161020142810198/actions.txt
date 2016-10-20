@@ -330,3 +330,7 @@ RefactoringAction 1476969487837 Explorer.java RENAME moveBackward()=>void moveBa
 CompilationAction 1476969490614 Explorer.java
 EditAction 1476969652097 Explorer.java 1412 8 15 0
 EditAction 1476969832595 Explorer.java 1441 8 16 0
+UnitTestCaseAction 1476969834096 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476969834096 TestPlanetExplorer.java FAIL
+RefactoringAction 1476969964863 Explorer.java ADD String foundObstacles FIELD
+EditAction 1476970054731 Explorer.java 1566 8 17 0

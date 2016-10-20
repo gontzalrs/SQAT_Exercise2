@@ -5,6 +5,7 @@ public class Explorer {
 	private int Px;
 	private int Py;
 	private int direction;
+	private String foundObstacles;
 	
 	final int N = 0;
 	final int E = 1;
@@ -17,6 +18,7 @@ public class Explorer {
 		direction = N;
 		this.Px = Px;
 		this.Py = Py;
+		foundObstacles = "";
 	}
 	
 	public void turnLeft(){
@@ -29,7 +31,7 @@ public class Explorer {
 		else direction ++;
 	}
 	
-	public int moveForward(int[][] obs){
+	public String moveForward(int[][] obs){
 		int prevX = x;
 		int prevY = y;
 		switch(direction){
@@ -53,6 +55,7 @@ public class Explorer {
 		for(int[] o : obs){
 			if(o[0]==x){
 				if(o[1]==y){
+					foundObstacles = foundObstacles + "(" + x + "," + y + ")";
 					x = prevX;
 					y = prevY;
 					return -1;
