@@ -158,3 +158,29 @@ CompilationAction 1476965804434 TestPlanetExplorer.java
 CompilationAction 1476965804435 TestPlanetExplorer.java
 RefactoringAction 1476965828995 PlanetExplorer.java ADD int getExplorerDirection()/2 METHOD
 EditAction 1476965867890 PlanetExplorer.java 1767 6 8 0
+CompilationAction 1476965867985 PlanetExplorer.java
+CompilationAction 1476965867985 PlanetExplorer.java
+CompilationAction 1476965867986 PlanetExplorer.java
+CompilationAction 1476965867986 PlanetExplorer.java
+CompilationAction 1476966033237 PlanetExplorer.java
+CompilationAction 1476966033238 PlanetExplorer.java
+CompilationAction 1476966033238 PlanetExplorer.java
+CompilationAction 1476966033748 PlanetExplorer.java
+CompilationAction 1476966033748 PlanetExplorer.java
+CompilationAction 1476966033748 PlanetExplorer.java
+CompilationAction 1476966033749 PlanetExplorer.java
+CompilationAction 1476966033749 PlanetExplorer.java
+CompilationAction 1476966039229 PlanetExplorer.java
+CompilationAction 1476966039230 PlanetExplorer.java
+CompilationAction 1476966039231 PlanetExplorer.java
+CompilationAction 1476966039385 PlanetExplorer.java
+RefactoringAction 1476966044727 PlanetExplorer.java RENAME getExplorerDirection()/2=>int METHOD
+CompilationAction 1476966045509 PlanetExplorer.java
+CompilationAction 1476966045677 TestPlanetExplorer.java
+CompilationAction 1476966045677 TestPlanetExplorer.java
+CompilationAction 1476966045677 TestPlanetExplorer.java
+CompilationAction 1476966097346 TestPlanetExplorer.java
+CompilationAction 1476966097347 TestPlanetExplorer.java
+UnitTestCaseAction 1476966101173 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476966101174 TestPlanetExplorer.java FAIL
+EditAction 1476966160428 PlanetExplorer.java 1927 6 13 0

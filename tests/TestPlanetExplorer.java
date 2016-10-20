@@ -43,7 +43,11 @@ public class TestPlanetExplorer {
 		PlanetExplorer planet = new PlanetExplorer(100,100,"");
 		//Act
 		planet.executeCommand("f");
+		int[] pos = new int[3];
+		pos[0] = 0;
+		pos[1] = 1;
+		pos[2] = N;
 		//Assert
-		assertEquals([2,2,E], planet.getExplorerPosition());
+		assertEquals(pos, planet.getExplorerPosition());
 	}
 }
