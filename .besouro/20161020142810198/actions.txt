@@ -9,3 +9,18 @@ EditAction 1476963373685 PlanetExplorer.java 1390 4 5 0
 EditAction 1476963376167 TestPlanetExplorer.java 180 1 0 0
 EditAction 1476963548367 TestPlanetExplorer.java 271 1 2 1
 EditAction 1476963563464 PlanetExplorer.java 1406 4 5 0
+UnitTestCaseAction 1476963570042 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476963570043 TestPlanetExplorer.java OK
+RefactoringAction 1476963727168 Explorer.java ADD Explorer.java CLASS
+FileOpenedAction 1476963727314 Explorer.java 103 1 0 0
+RefactoringAction 1476963743039 TestPlanetExplorer.java ADD void test_executeCommand()/2 METHOD
+RefactoringAction 1476963751557 TestPlanetExplorer.java RENAME test_executeCommand()/2=>void test_create() METHOD
+RefactoringAction 1476963757081 TestPlanetExplorer.java RENAME test_create()=>void test_createPlanet_() METHOD
+RefactoringAction 1476963759596 TestPlanetExplorer.java RENAME test_createPlanet_()=>void test_createPlanet_100() METHOD
+RefactoringAction 1476963763611 TestPlanetExplorer.java RENAME test_createPlanet_100()=>void test_createPlanet100_100() METHOD
+RefactoringAction 1476963765626 TestPlanetExplorer.java RENAME test_createPlanet100_100()=>void test_createPlanet100x100_100() METHOD
+RefactoringAction 1476963772653 TestPlanetExplorer.java RENAME test_executeCommand()=>void test_land() METHOD
+RefactoringAction 1476963775677 TestPlanetExplorer.java RENAME test_land()=>void test_landExplorer() METHOD
+RefactoringAction 1476963800692 TestPlanetExplorer.java RENAME test_landExplorer()=>void test_landExplorer_() METHOD
+RefactoringAction 1476963805209 TestPlanetExplorer.java RENAME test_landExplorer_()=>void test_landExplorer_N() METHOD
+EditAction 1476964029049 TestPlanetExplorer.java 517 2 6 2
