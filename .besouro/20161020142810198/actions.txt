@@ -252,3 +252,15 @@ RefactoringAction 1476967322905 TestPlanetExplorer.java RENAME test_backward_099
 RefactoringAction 1476967323917 TestPlanetExplorer.java RENAME test_backward_099E()=>void test_backward_099() METHOD
 RefactoringAction 1476967324928 TestPlanetExplorer.java RENAME test_backward_099()=>void test_backward_099N() METHOD
 EditAction 1476967344737 TestPlanetExplorer.java 1478 6 20 6
+UnitTestCaseAction 1476967346761 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476967346761 TestPlanetExplorer.java FAIL
+RefactoringAction 1476967416809 Explorer.java RENAME Px=>int Planetx FIELD
+RefactoringAction 1476967418319 Explorer.java RENAME Planetx=>int PlanetMaxx FIELD
+RefactoringAction 1476967425330 Explorer.java RENAME PlanetMaxx=>int PlanetMax FIELD
+RefactoringAction 1476967426839 Explorer.java RENAME PlanetMax=>int PlanetxMax FIELD
+RefactoringAction 1476967430844 Explorer.java RENAME Py=>int Planety FIELD
+RefactoringAction 1476967431851 Explorer.java RENAME Planety=>int Planetyy FIELD
+RefactoringAction 1476967434863 Explorer.java RENAME Planetyy=>int PlanetyMax FIELD
+RefactoringAction 1476967446873 Explorer.java ADD int Px FIELD
+RefactoringAction 1476967446874 Explorer.java ADD int Py FIELD
+EditAction 1476967482287 Explorer.java 1244 8 12 0
