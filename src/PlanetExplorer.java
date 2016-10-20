@@ -42,6 +42,10 @@ public class PlanetExplorer {
 		return y;
 	}
 	
+	public int[][] getObstacles(){
+		return obstacles;
+	}
+	
 	public int getExplorerDirection(){
 		return explorer.getDirection();
 	}

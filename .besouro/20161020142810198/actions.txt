@@ -291,3 +291,7 @@ CompilationAction 1476968459725 PlanetExplorer.java
 CompilationAction 1476968459726 PlanetExplorer.java
 EditAction 1476968580987 PlanetExplorer.java 2395 7 17 0
 EditAction 1476968726937 PlanetExplorer.java 2444 7 17 0
+RefactoringAction 1476968802376 PlanetExplorer.java ADD int get FIELD
+RefactoringAction 1476968808390 PlanetExplorer.java RENAME get=>int getObstacles FIELD
+RefactoringAction 1476968809405 PlanetExplorer.java RENAME getObstacles=>int getObstacles() METHOD
+EditAction 1476968825702 PlanetExplorer.java 2501 8 18 0
