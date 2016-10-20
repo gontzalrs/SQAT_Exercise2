@@ -92,6 +92,6 @@ public class TestPlanetExplorer {
 		//Act
 		String pos  = planet.executeCommand("ffrfff");
 		//Assert
-		assertEquals("(1,2"+ E +")(2,2)", pos);
+		assertEquals("(1,2,"+ E +")(2,2)", pos);
 	}
 }
