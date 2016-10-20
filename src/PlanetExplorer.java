@@ -32,6 +32,10 @@ public class PlanetExplorer {
 	public int getExplorerDirection(){
 		return explorer.getDirection();
 	}
+	
+	public int[] getExplorerDirection(){
+		return [explorer.getX(), explorer.getY(), explorer.getDirection()];
+	}
 
 	public String executeCommand(String command){
 		

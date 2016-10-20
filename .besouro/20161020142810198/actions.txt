@@ -151,3 +151,10 @@ RefactoringAction 1476965742999 TestPlanetExplorer.java RENAME test_forw_N()=>vo
 RefactoringAction 1476965748011 TestPlanetExplorer.java RENAME test_forwdward_N()=>void test_forwward_N() METHOD
 RefactoringAction 1476965755524 TestPlanetExplorer.java RENAME test_forwward_N()=>void test_forwward_1() METHOD
 EditAction 1476965788303 TestPlanetExplorer.java 968 4 10 4
+CompilationAction 1476965788519 TestPlanetExplorer.java
+CompilationAction 1476965804276 TestPlanetExplorer.java
+CompilationAction 1476965804434 TestPlanetExplorer.java
+CompilationAction 1476965804434 TestPlanetExplorer.java
+CompilationAction 1476965804435 TestPlanetExplorer.java
+RefactoringAction 1476965828995 PlanetExplorer.java ADD int getExplorerDirection()/2 METHOD
+EditAction 1476965867890 PlanetExplorer.java 1767 6 8 0
