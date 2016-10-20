@@ -29,7 +29,8 @@ public class PlanetExplorer {
 	private void setObstacles(String obs){
 		for(int i = 0; i<obs.length(); i++){
 			char c = obs.charAt(i);
-			if(i % 5 == 1) obstacles[i/5][0] = c-0;
+			if(i % 5 == 2) obstacles[i/5][0] = c-0;
+			else if (i % 5 == 4) obstacles[i/5][1] = c-0;
 		}
 	}
 	
