@@ -6,3 +6,4 @@ RefactoringAction 1476963233699 PlanetExplorer.java ADD int y FIELD
 RefactoringAction 1476963371498 PlanetExplorer.java ADD int getX() METHOD
 RefactoringAction 1476963371498 PlanetExplorer.java ADD int getY() METHOD
 EditAction 1476963373685 PlanetExplorer.java 1390 4 5 0
+EditAction 1476963376167 TestPlanetExplorer.java 180 1 0 0
