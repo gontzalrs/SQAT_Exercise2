@@ -244,3 +244,11 @@ RefactoringAction 1476967239262 Explorer.java REMOVE setY(int) METHOD
 RefactoringAction 1476967241772 Explorer.java REMOVE setX(int) METHOD
 RefactoringAction 1476967246282 Explorer.java REMOVE setDirection(int) METHOD
 EditAction 1476967260543 Explorer.java 1228 8 12 0
+RefactoringAction 1476967298853 TestPlanetExplorer.java ADD void test_ffrff_22E()/2 METHOD
+RefactoringAction 1476967307867 TestPlanetExplorer.java RENAME test_ffrff_22E()/2=>void test_back_22E() METHOD
+RefactoringAction 1476967309879 TestPlanetExplorer.java RENAME test_back_22E()=>void test_backward_22E() METHOD
+RefactoringAction 1476967321892 TestPlanetExplorer.java RENAME test_backward_22E()=>void test_backward_099() METHOD
+RefactoringAction 1476967322905 TestPlanetExplorer.java RENAME test_backward_099()=>void test_backward_099E() METHOD
+RefactoringAction 1476967323917 TestPlanetExplorer.java RENAME test_backward_099E()=>void test_backward_099() METHOD
+RefactoringAction 1476967324928 TestPlanetExplorer.java RENAME test_backward_099()=>void test_backward_099N() METHOD
+EditAction 1476967344737 TestPlanetExplorer.java 1478 6 20 6

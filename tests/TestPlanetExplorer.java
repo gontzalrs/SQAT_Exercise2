@@ -60,4 +60,14 @@ public class TestPlanetExplorer {
 		//Assert
 		assertEquals("(2,2,"+E+")", pos);
 	}
+	
+	@Test
+	public void test_backward_099N() {
+		//Arrange
+		PlanetExplorer planet = new PlanetExplorer(100,100,"");
+		//Act
+		String pos  = planet.executeCommand("b");
+		//Assert
+		assertEquals("(0,99,"+N+")", pos);
+	}
 }
