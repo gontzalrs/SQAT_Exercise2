@@ -6,7 +6,7 @@
 public class PlanetExplorer {
 	private int x;
 	private int y;
-	private int[][];
+	private int[][] obstacles;
 	private Explorer explorer;
 
 	
@@ -20,8 +20,11 @@ public class PlanetExplorer {
 	 */
 		this.x = x;
 		this.y = y;
+		setObstacles(obstacles);
 		explorer = new Explorer(x, y);
 	}
+	
+	
 	
 	public int getX() {
 		return x;

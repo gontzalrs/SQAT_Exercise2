@@ -267,3 +267,11 @@ EditAction 1476967482287 Explorer.java 1244 8 12 0
 UnitTestCaseAction 1476967492014 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476967492014 TestPlanetExplorer.java OK
 EditAction 1476967808158 PlanetExplorer.java 2108 6 13 0
+CompilationAction 1476967808408 PlanetExplorer.java
+CompilationAction 1476967808408 PlanetExplorer.java
+CompilationAction 1476967841817 PlanetExplorer.java
+CompilationAction 1476967841818 PlanetExplorer.java
+CompilationAction 1476967841970 PlanetExplorer.java
+CompilationAction 1476967841971 PlanetExplorer.java
+RefactoringAction 1476967869531 PlanetExplorer.java ADD int FIELD
+EditAction 1476967939922 PlanetExplorer.java 2149 6 14 0
