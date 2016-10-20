@@ -50,6 +50,7 @@ public class Explorer {
 			else x--;
 			break;
 		}
+		int[][] = planet.getObstacles()
 	}
 	
 	public void moveBackward(){
