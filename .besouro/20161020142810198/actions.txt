@@ -56,3 +56,13 @@ RefactoringAction 1476964323652 Explorer.java ADD int getDirection() METHOD
 RefactoringAction 1476964323653 Explorer.java ADD void setDirection(int) METHOD
 RefactoringAction 1476964358445 PlanetExplorer.java ADD Explorer explorer FIELD
 EditAction 1476964377059 PlanetExplorer.java 1463 4 6 0
+CompilationAction 1476964377326 TestPlanetExplorer.java
+CompilationAction 1476964377327 TestPlanetExplorer.java
+CompilationAction 1476964377327 TestPlanetExplorer.java
+CompilationAction 1476964386285 TestPlanetExplorer.java
+CompilationAction 1476964386285 TestPlanetExplorer.java
+CompilationAction 1476964386285 TestPlanetExplorer.java
+CompilationAction 1476964386424 TestPlanetExplorer.java
+CompilationAction 1476964386425 TestPlanetExplorer.java
+CompilationAction 1476964386425 TestPlanetExplorer.java
+EditAction 1476964397082 Explorer.java 540 7 9 0

@@ -18,7 +18,6 @@ public class TestPlanetExplorer {
 	public void test_landExplorer_N() {
 		//Arrange
 		PlanetExplorer planet = new PlanetExplorer(100,100,"");
-		Explorer explorer = new Explorer();
 		//Act
 		explorer.land();
 		//Assert
