@@ -360,3 +360,10 @@ EditAction 1476970485521 Explorer.java 1920 8 21 0
 UnitTestCaseAction 1476970489365 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476970489365 TestPlanetExplorer.java OK
 EditAction 1476970502501 Explorer.java 1981 8 21 0
+UnitTestCaseAction 1476970509680 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476970509680 TestPlanetExplorer.java OK
+UnitTestCaseAction 1476970519207 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476970519207 TestPlanetExplorer.java OK
+RefactoringAction 1476970532358 TestPlanetExplorer.java ADD void test_backward_12E22()/2 METHOD
+RefactoringAction 1476970540080 TestPlanetExplorer.java RENAME test_backward_12E22()/2=>void test_tour() METHOD
+EditAction 1476970632775 TestPlanetExplorer.java 2273 9 33 9

@@ -94,4 +94,14 @@ public class TestPlanetExplorer {
 		//Assert
 		assertEquals("(1,2,"+ E +")(2,2)", pos);
 	}
+	
+	@Test
+	public void test_tour() {
+		//Arrange
+		PlanetExplorer planet = new PlanetExplorer(100,100,"(2,2)(0,5)(5,0)");
+		//Act
+		String pos  = planet.executeCommand("ffrfffrbbblllfrfrbbl");
+		//Assert
+		assertEquals("(0,0,"+ N +")(2,2)(0,5)(5,0)", pos);
+	}
 }

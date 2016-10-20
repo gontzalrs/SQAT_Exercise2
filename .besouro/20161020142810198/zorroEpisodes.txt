@@ -8,3 +8,5 @@
 1476967492014 test-first 3 266 true
 1476969159257 test-first 3 1667 true
 1476970489365 test-first 1 1330 true
+1476970509680 refactoring 2A 20 true
+1476970519207 regression 1 9 true
