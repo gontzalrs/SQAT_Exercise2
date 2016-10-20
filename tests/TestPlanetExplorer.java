@@ -3,7 +3,11 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class TestPlanetExplorer {
-
+	final int N = 0;
+	final int S = 1;
+	final int W = 2;
+	final int E = 3;
+	
 	@Test
 	public void test_createPlanet100x100_100() {
 		//Arrange
@@ -19,8 +23,7 @@ public class TestPlanetExplorer {
 		//Arrange
 		PlanetExplorer planet = new PlanetExplorer(100,100,"");
 		//Act
-		explorer.land();
 		//Assert
-		assertEquals(N, planet.getDirection());
+		assertEquals(N, planet.getExplorerDirection());
 	}
 }

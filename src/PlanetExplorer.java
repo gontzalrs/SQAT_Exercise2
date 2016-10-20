@@ -28,6 +28,10 @@ public class PlanetExplorer {
 	public int getY() {
 		return y;
 	}
+	
+	public int getExplorerDirection(){
+		return explorer.getDirection();
+	}
 
 	public String executeCommand(String command){
 		

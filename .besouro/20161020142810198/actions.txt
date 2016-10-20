@@ -66,3 +66,14 @@ CompilationAction 1476964386424 TestPlanetExplorer.java
 CompilationAction 1476964386425 TestPlanetExplorer.java
 CompilationAction 1476964386425 TestPlanetExplorer.java
 EditAction 1476964397082 Explorer.java 540 7 9 0
+RefactoringAction 1476964458099 PlanetExplorer.java ADD int get FIELD
+RefactoringAction 1476964461115 PlanetExplorer.java RENAME get=>int getExplorer FIELD
+RefactoringAction 1476964465131 PlanetExplorer.java RENAME getExplorer=>int getExplorerDirection FIELD
+RefactoringAction 1476964468158 PlanetExplorer.java RENAME getExplorerDirection=>int getExplorerDirection() METHOD
+RefactoringAction 1476964500609 TestPlanetExplorer.java ADD int N FIELD
+RefactoringAction 1476964500610 TestPlanetExplorer.java ADD int S FIELD
+RefactoringAction 1476964500611 TestPlanetExplorer.java ADD int W FIELD
+RefactoringAction 1476964500611 TestPlanetExplorer.java ADD int E FIELD
+CompilationAction 1476964501470 TestPlanetExplorer.java
+CompilationAction 1476964501623 TestPlanetExplorer.java
+EditAction 1476964508841 PlanetExplorer.java 1538 5 7 0
