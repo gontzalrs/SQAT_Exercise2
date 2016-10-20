@@ -301,3 +301,6 @@ RefactoringAction 1476968867254 TestPlanetExplorer.java RENAME test_place_099N()
 RefactoringAction 1476968876272 TestPlanetExplorer.java RENAME test_placeObstacles_099N()=>void test_placeObstacles_32() METHOD
 RefactoringAction 1476968877786 TestPlanetExplorer.java RENAME test_placeObstacles_32()=>void test_placeObstacles_3258() METHOD
 EditAction 1476968985062 TestPlanetExplorer.java 1779 7 27 7
+UnitTestCaseAction 1476969011927 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476969011927 TestPlanetExplorer.java FAIL
+EditAction 1476969038304 PlanetExplorer.java 2505 8 18 0
