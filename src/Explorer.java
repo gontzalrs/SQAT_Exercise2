@@ -30,7 +30,45 @@ public class Explorer {
 	}
 	
 	public void moveForward(){
-		if(y==)
+		switch(direction){
+		case N:
+			if(y==Py) y = 0;
+			else y++;
+			break;
+		case S:
+			if(y==0) y = Py;
+			else y--;
+			break;
+		case E:
+			if(x==Px) x = 0;
+			else x++;
+			break;
+		case W:
+			if(x==0) x = Px;
+			else x--;
+			break;
+		}
+	}
+	
+	public void moveBackward(){
+		switch(direction){
+		case N:
+			if(y==0) y = Py;
+			else y--;
+			break;
+		case S:
+			if(y==Py) y = 0;
+			else y++;
+			break;
+		case E:
+			if(x==0) x = Px;
+			else x--;
+			break;
+		case W:
+			if(x==Px) x = 0;
+			else x++;
+			break;
+		}
 	}
 	
 	public int getX() {

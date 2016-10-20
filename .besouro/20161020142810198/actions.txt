@@ -201,3 +201,10 @@ RefactoringAction 1476966259374 Explorer.java ADD int Pz FIELD
 RefactoringAction 1476966261386 Explorer.java RENAME Pz=>int P FIELD
 RefactoringAction 1476966267897 Explorer.java RENAME P=>int Px FIELD
 EditAction 1476966292819 Explorer.java 861 10 13 0
+CompilationAction 1476966293080 Explorer.java
+CompilationAction 1476966293081 Explorer.java
+CompilationAction 1476966293081 PlanetExplorer.java
+RefactoringAction 1476966527611 Explorer.java ADD void moveForward()/2 METHOD
+RefactoringAction 1476966533131 Explorer.java RENAME moveForward()/2=>void moveBack() METHOD
+RefactoringAction 1476966534641 Explorer.java RENAME moveBack()=>void moveBackward() METHOD
+EditAction 1476966563542 Explorer.java 1397 11 15 0
