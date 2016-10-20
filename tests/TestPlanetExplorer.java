@@ -86,12 +86,12 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_backward_099N() {
+	public void test_backward_12E22() {
 		//Arrange
 		PlanetExplorer planet = new PlanetExplorer(100,100,"(2,2)");
 		//Act
 		String pos  = planet.executeCommand("ffrfff");
 		//Assert
-		assertEquals("(0,99,"+N+")", pos);
+		assertEquals("(1,2"+E+")", pos);
 	}
 }

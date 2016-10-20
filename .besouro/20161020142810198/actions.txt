@@ -310,3 +310,8 @@ UnitTestCaseAction 1476969159257 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476969159257 TestPlanetExplorer.java OK
 RefactoringAction 1476969278148 TestPlanetExplorer.java ADD void test_backward_099N()/2 METHOD
 EditAction 1476969297666 TestPlanetExplorer.java 2007 8 30 8
+CompilationAction 1476969297933 TestPlanetExplorer.java
+RefactoringAction 1476969317757 TestPlanetExplorer.java RENAME test_backward_099N()/2=>void test_backward_12E() METHOD
+CompilationAction 1476969318749 TestPlanetExplorer.java
+RefactoringAction 1476969332281 TestPlanetExplorer.java RENAME test_backward_12E()=>void test_backward_12E22() METHOD
+EditAction 1476969333148 TestPlanetExplorer.java 2006 8 30 8
