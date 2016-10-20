@@ -101,3 +101,25 @@ RefactoringAction 1476964788938 Explorer.java RENAME Sou=>direction S FIELD
 RefactoringAction 1476964790965 Explorer.java ADD direction W FIELD
 RefactoringAction 1476964811979 Explorer.java REMOVE direction FIELD
 EditAction 1476964815018 Explorer.java 483 7 9 0
+CompilationAction 1476964815287 Explorer.java
+CompilationAction 1476964815287 Explorer.java
+CompilationAction 1476964815287 Explorer.java
+RefactoringAction 1476964842504 Explorer.java RENAME direction=>enum Direction null
+RefactoringAction 1476964851031 Explorer.java ADD Direction direction FIELD
+CompilationAction 1476964859187 Explorer.java
+CompilationAction 1476964859188 Explorer.java
+CompilationAction 1476964859189 Explorer.java
+CompilationAction 1476964859358 Explorer.java
+CompilationAction 1476964859359 Explorer.java
+CompilationAction 1476964859359 Explorer.java
+RefactoringAction 1476964889591 Explorer.java ADD Direction N FIELD
+RefactoringAction 1476964894577 Explorer.java REMOVE N FIELD
+RefactoringAction 1476964934602 Explorer.java RENAME Direction=>int N FIELD
+RefactoringAction 1476964950122 Explorer.java REMOVE E FIELD
+RefactoringAction 1476964952632 Explorer.java ADD int E FIELD
+CompilationAction 1476964959167 Explorer.java
+CompilationAction 1476964959168 Explorer.java
+CompilationAction 1476964959169 Explorer.java
+UnitTestCaseAction 1476964969045 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476964969045 TestPlanetExplorer.java OK
+EditAction 1476965052692 PlanetExplorer.java 1634 5 8 0
