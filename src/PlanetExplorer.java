@@ -79,10 +79,10 @@ public class PlanetExplorer {
 				explorer.turnRight();
 				break;
 			case 'f':
-				explorer.moveForward();
+				explorer.moveForward(obstacles);
 				break;
 			case 'b':
-				explorer.moveBackward();
+				explorer.moveBackward(obstacles);
 				break;
 			}
 		}

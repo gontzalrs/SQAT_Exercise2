@@ -29,7 +29,7 @@ public class Explorer {
 		else direction ++;
 	}
 	
-	public void moveForward(){
+	public void moveForward(int[][] obs){
 		int prevX = x;
 		int prevY = y;
 		switch(direction){
@@ -50,10 +50,17 @@ public class Explorer {
 			else x--;
 			break;
 		}
-		int[][] = planet.getObstacles()
+		for(int[] o : obs){
+			if(o[0]==x){
+				if(o[1]==y){
+					x = prevX;
+					y = prevY;
+				}
+			}
+		}
 	}
 	
-	public void moveBackward(){
+	public void moveBackward(int[][] obs){
 		switch(direction){
 		case N:
 			if(y==0) y = Py-1;

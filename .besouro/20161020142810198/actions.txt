@@ -317,3 +317,15 @@ RefactoringAction 1476969332281 TestPlanetExplorer.java RENAME test_backward_12E
 EditAction 1476969333148 TestPlanetExplorer.java 2006 8 30 8
 EditAction 1476969383701 Explorer.java 1280 8 14 0
 EditAction 1476969431093 Explorer.java 1315 8 11 0
+CompilationAction 1476969431339 Explorer.java
+CompilationAction 1476969431339 Explorer.java
+CompilationAction 1476969431339 Explorer.java
+CompilationAction 1476969435508 Explorer.java
+CompilationAction 1476969435666 Explorer.java
+CompilationAction 1476969435666 Explorer.java
+CompilationAction 1476969476249 PlanetExplorer.java
+CompilationAction 1476969476249 PlanetExplorer.java
+RefactoringAction 1476969486825 Explorer.java RENAME moveForward()=>void moveForward(int METHOD
+RefactoringAction 1476969487837 Explorer.java RENAME moveBackward()=>void moveBackward(int METHOD
+CompilationAction 1476969490614 Explorer.java
+EditAction 1476969652097 Explorer.java 1412 8 15 0
