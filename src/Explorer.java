@@ -90,7 +90,8 @@ public class Explorer {
 		for(int[] o : obs){
 			if(o[0]==x){
 				if(o[1]==y){
-					foundObstacles = foundObstacles + "(" + x + "," + y + ")";
+					if(!foundObstacles.contains("(" + x + "," + y + ")"))
+						foundObstacles = foundObstacles + "(" + x + "," + y + ")";
 					x = prevX;
 					y = prevY;
 					return foundObstacles;
