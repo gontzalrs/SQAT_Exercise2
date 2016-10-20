@@ -29,7 +29,7 @@ public class Explorer {
 		else direction ++;
 	}
 	
-	public void moveForward(int[][] obs){
+	public int moveForward(int[][] obs){
 		int prevX = x;
 		int prevY = y;
 		switch(direction){
@@ -55,9 +55,11 @@ public class Explorer {
 				if(o[1]==y){
 					x = prevX;
 					y = prevY;
+					return -1;
 				}
 			}
 		}
+		return 0;
 	}
 	
 	public void moveBackward(int[][] obs){
