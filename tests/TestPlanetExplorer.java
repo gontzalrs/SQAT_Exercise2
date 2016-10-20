@@ -34,6 +34,6 @@ public class TestPlanetExplorer {
 		//Act
 		planet.executeCommand("l");
 		//Assert
-		assertEquals(N, planet.getExplorerDirection());
+		assertEquals(W, planet.getExplorerDirection());
 	}
 }
